@@ -25,12 +25,12 @@ Below is a list of all the fields of data:
 Creating new columns as listed below:
 1.  **Age Group** using IF formula
 2.  **Hire Year Group**  _5 years each starting in 1992 to 2021_ using IF formula
-3.  **Bouns Group** using IFs formula
+3.  **Bouns Group** _6 categories_ using IFs formula
 4.  **Total Salary** ``` (Annual Salary * Bouns) + Annual Salary```
 5.  **Retired** using IF formula
 
 # Dashboard
-In order to create the dashboard I created _5 pivot tables_ to show the fowlloing:
+In order to create the dashboard I created _5 pivot tables_ to show the following:
 1. The employees' retirement over the years based on hiring year
 2. The range of bonuses given to the employees in each business unit with the average annual salary
 3. The percentage of ethnicities in the company
@@ -44,3 +44,6 @@ In addition, adding filters:
 - Year
 
 # Dashboard preview
+
+![HR-Dashboard-Preview](HR-Dashboard.png)
+
