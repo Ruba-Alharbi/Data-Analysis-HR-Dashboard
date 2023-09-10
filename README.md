@@ -2,7 +2,7 @@
 HR Data analysis dashboard by MS Excel
 
 # Overview
-This database contains 1,000 rows of data that HR professionals deal with.
+This [dataset](https://www.thespreadsheetguru.com/sample-data/) contains 1,000 rows of data that HR professionals deal with.
 
 Below is a list of all the fields of data:
 
@@ -21,13 +21,17 @@ Below is a list of all the fields of data:
 13. City
 14. Exit Date
 
-# Processes
+## New Columns
 Creating new columns as listed below:
 1.  **Age Group** using IF formula
 2.  **Hire Year Group**  _5 years each starting in 1992 to 2021_ using IF formula
 3.  **Bouns Group** _6 categories_ using IFs formula
 4.  **Total Salary** ``` (Annual Salary * Bouns) + Annual Salary```
 5.  **Retired** using IF formula
+
+## Calculations
+- Total number of employees in each country _using COUNTIF formula_
+- The percentage of each group age _using COUNTIF formula_
 
 # Dashboard
 In order to create the dashboard I created _5 pivot tables_ to show the following:
